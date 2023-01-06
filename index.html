@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,400&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Raleway&family=Rubik+Bubbles&family=Seymour+One&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;1,200;1,300&family=Water+Brush&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <style>
@@ -22,12 +24,15 @@ background-position: center;
 background-repeat: no-repeat;
 background-size: 100% 100vh;
 display: flex;
+flex-direction: column;
     justify-content: center;
     align-items: center;
     font-size: 40px;
     color: white;
     font-weight: 800;
-
+align-items: center;
+justify-content: center;
+color:white;
 }
 
 .parallax1{
@@ -51,14 +56,35 @@ display: flex;
 
 background-image: url('background/Subway.png')
 }
+h1{font-family: 'Montserrat',sans-serif;font-weight: 700;text-align: center;font-size: 100px;}
+.view{width:370px;
+height:110px;
+border:2px solid rgb(255 255 255);
+background:none;
+color:white;
+font-family: 'Montserrat',sans-serif;
+font-weight: 500;
+margin-top: 53px;
+font-size: 44px;
+}
 </style>
 <body>
-<div class="parallax parallax1 "></div>
-<div class="parallax parallax2 "></div>
-<div class="parallax parallax3 "></div>
-<div class="parallax parallax4 "></div>
-<div class="parallax parallax5 "></div>
-<div class="parallax parallax6 "></div>
+<div class="parallax parallax1 ">
+<h1>CIRCUS OF WONDERS</h1>
+<button class="view">view project</button>
+</div>
+<div class="parallax parallax2 "><h1>MARC & ANDRÉ</h1>
+<button class="view">view project</button>
+</div>
+<div class="parallax parallax3 "><h1>MUSEUM OF THE EAST</h1>
+    <button class="view">view project</button>
+</div>
+<div class="parallax parallax4 "><h1>AGRICULTURAL UNIVERSITY
+ MERCHANDISE</h1>
+ <button class="view">view project</button>
+</div>
+<div class="parallax parallax5 "><h1>WALLPAPERS FACTORY</h1><button class="view">view project</button></div>
+<div class="parallax parallax6 "><h1>SUBWAY MAPS</h1><button class="view">view project</button></div>
  
 </body>
 </html>
