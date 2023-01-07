@@ -19,9 +19,9 @@
   
 <h1>CIRCUS OF WONDERS</h1>
 
-<button class="view"><a href="circus.html">view project</a></button>
+<button class="view"><a href="circus.html">VIEW PROJECT</a></button>
 </div>
-<div class="parallax parallax2 "><h1>MARC & ANDRÉ</h1>
+<div class="parallax parallax2 dot nav-title"><h1>MARC & ANDRÉ</h1>
 <button class="view">view project</button>
 </div>
 <div class="parallax parallax3 "><h1>MUSEUM OF THE EAST</h1>
@@ -36,15 +36,21 @@
  
 </body>
 <script>
+window.onscroll = function() {myFunction()};
 
-setInterval(myFunction,1)
+
 function myFunction() {
-    let wh=window.innerHeight
-let pos=document.querySelectorAll('.parallax')
-let h=pos[1].offsetTop;
-if(h>wh){
-    pos[1].style.backgroundAttachment="scroll"
-}
+    let ih=window.innerHeight;
+    let doc=document.documentElement.scrollTop;
+let parr=doc-ih
+  if (document.documentElement.scrollTop >ih ) {
+    document.getElementsByClassName('parallax')[1].style.color='red';
+    document.getElementsByClassName('parallax')[1].style.backgroundAttachment='scroll'
+  }  if(document.documentElement.scrollTop >ih*2 ) {
+    document.getElementsByClassName('parallax')[2].style.color='red';
+    document.getElementsByClassName('parallax')[2].style.backgroundAttachment='scroll'
+  }
 }
 </script>
+
 </html>

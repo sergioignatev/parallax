@@ -25,13 +25,13 @@
     }
     .parallax{
   
-        height:120vh; 
+        height:100vh; 
 
         background-attachment: fixed;
         
 background-position: center;
 background-repeat: no-repeat;
-background-size: 100% 120vh;
+background-size: 100% 100vh;
 display: flex;
 flex-direction: column;
     justify-content: center;
@@ -53,7 +53,8 @@ color:white;
 
 .parallax2{
   
-    background-image: url('background/MA.png')
+    background-image: url('background/MA.png');
+    
 }
 .parallax3{
     background-image: url('background/Museum.png')
@@ -70,24 +71,27 @@ color:white;
 background-image: url('background/Subway.png')
 }
 h1{font-family: 'Montserrat',sans-serif;font-weight: 700;text-align: center;font-size: 100px;}
-.view{width:370px;
-height:110px;
-border:2px solid rgb(255 255 255);
-background:none;
-color:white;
-font-family: 'Montserrat',sans-serif;
-font-weight: 500;
-margin-top: 53px;
-font-size: 44px;
+.view{width:200px;
+    height:50px;
+    border:2px solid rgb(255 255 255);
+    background:none;
+    color:white;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    
+    margin-top: 53px;
+border-radius: 2px;
+}
+.view:hover{
+    
+    background: white;   
+}
+.view:hover a{
+    color:black;
 }
 a{color: white;
 text-decoration: none;}
 @media (max-width:1500px) {
 h1{font-size:70px;} 
-.view{
-    width:250px;
-    height:75px;
-    font-size: 30px;
-   
-}   
+ 
 }
