@@ -1,0 +1,82 @@
+
+    *{
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+        font-family: 'Montserrat',sans-serif;
+    }
+    #header{
+        position: fixed;
+        background: none;
+        display:flex;
+        color:white;
+        justify-content: space-between;
+        width:100%;
+        padding:29px 64px 0px 46px;
+        
+    }
+    .left{}
+    .parallax{
+      
+        height:120vh; 
+
+
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: 100% 100vh;
+display: flex;
+flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: white;
+    font-weight: 800;
+align-items: center;
+justify-content: center;
+color:white;
+}
+
+.parallax1{
+    background-image: url(background/Circus.png);
+}
+.parallax2{
+   
+    background-image: url('background/MA.png')
+}
+.parallax3{
+    background-image: url('background/Museum.png')
+}
+.parallax4{
+
+    background-image: url('background/University.png')
+}
+.parallax5{
+    background-image: url('background/Factory.png')
+    }
+    .parallax6{
+
+background-image: url('background/Subway.png')
+}
+h1{font-family: 'Montserrat',sans-serif;font-weight: 700;text-align: center;font-size: 100px;}
+.view{width:370px;
+height:110px;
+border:2px solid rgb(255 255 255);
+background:none;
+color:white;
+font-family: 'Montserrat',sans-serif;
+font-weight: 500;
+margin-top: 53px;
+font-size: 44px;
+}
+a{color: white;
+text-decoration: none;}
+@media (max-width:1500px) {
+h1{font-size:70px;} 
+.view{
+    width:250px;
+    height:75px;
+    font-size: 30px;
+   
+}   
+}
