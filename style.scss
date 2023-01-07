@@ -6,7 +6,7 @@
         font-family: 'Montserrat',sans-serif;
     }
     #header{
-        position: fixed;
+        position: absolute;
         background: none;
         display:flex;
         color:white;
@@ -21,11 +21,11 @@
     font-weight:40;
     }
     .parallax{
-      
+  
         height:120vh; 
 
 
-background-attachment: fixed;
+        background-attachment: fixed;
 background-position: center;
 background-repeat: no-repeat;
 background-size: 100% 100vh;
@@ -39,6 +39,11 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 color:white;
+button:hover{
+    background: white;
+   
+}
+a:hover{color:black;}
 }
 
 .parallax1{

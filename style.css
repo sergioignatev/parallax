@@ -6,7 +6,7 @@
 }
 
 #header {
-  position: fixed;
+  position: absolute;
   background: none;
   display: flex;
   color: white;
@@ -39,6 +39,12 @@
   align-items: center;
   justify-content: center;
   color: white;
+}
+.parallax button:hover {
+  background: white;
+}
+.parallax a:hover {
+  color: black;
 }
 
 .parallax1 {
