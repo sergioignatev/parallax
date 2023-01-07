@@ -15,6 +15,14 @@
   padding: 29px 64px 0px 46px;
 }
 
+.left {
+  color: red;
+  font-weight: 40;
+}
+.left span {
+  font-family: "Sillii Willinn";
+}
+
 .parallax {
   height: 120vh;
   background-attachment: fixed;
