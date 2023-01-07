@@ -34,4 +34,16 @@
 <div class="parallax parallax6 "><h1>SUBWAY MAPS</h1><button class="view">view project</button></div>
  
 </body>
+<script>
+
+setInterval(myFunction,1)
+function myFunction() {
+    let wh=window.innerHeight
+let pos=document.querySelectorAll('.parallax')
+let h=pos[1].offsetTop;
+if(h>wh){
+    pos[1].style.backgroundAttachment="scroll"
+}
+}
+</script>
 </html>
