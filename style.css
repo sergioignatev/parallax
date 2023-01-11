@@ -3,10 +3,11 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
 }
 
 #header {
-  position: absolute;
+  position: fixed;
   background: none;
   display: flex;
   color: white;
@@ -28,7 +29,7 @@
 .parallax {
   height: 100vh;
   background-attachment: fixed;
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
   background-size: 100% 100vh;
   display: flex;
